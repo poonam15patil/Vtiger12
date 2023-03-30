@@ -1,0 +1,36 @@
+package Relationships;
+
+public class computer {
+	String brand;
+	String os;
+	double price;
+	int ram;
+	int hd;
+	Pendrive p1;
+	public computer()
+	{}
+	computer(String brand,String os,double price,int ram,int hd)
+	{
+		this.brand=brand;
+		this.os=os;
+		this.price=price;
+		this.ram=ram;
+		this.hd=hd;
+		
+	}
+	public void insertPendrive(String brand,double memory,double price,String type)
+	{
+		p1=new Pendrive(brand,price,memory,type);
+		System.out.println("Pendrive inserted");
+	}
+	public void displayComputer()
+
+	{
+		System.out.println("brand :"+brand);
+		System.out.println("os:"+os);
+		System.out.println("ram:"+ram);
+		System.out.println("hd:"+hd);
+	}
+	
+
+}
