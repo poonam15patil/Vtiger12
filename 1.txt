@@ -30,6 +30,7 @@ public class computer {
 		System.out.println("os:"+os);
 		System.out.println("ram:"+ram);
 		System.out.println("hd:"+hd);
+		Sytem.out.println("hd:"+hd);
 	}
 	
 
